@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<style type="text/css">
+  body {
+    margin:0;
+  }
+  .textbar1 {
+    color:#ffffff;
+    font-size:70px;
+  }
+  .textbar2 {
+    color:#2196F3;
+    font-size:70px;
+  }
+  .toolbar {
+    background-color:#222266;
+    display: flex;
+    align-items: center
+  }
+  .video {
+    border: 2px dotted black;
+    text-align:center;
+    background-color:#cccccc;
+  }
+</style>
+</head>
+<body>
+  <div class="toolbar" >
+    <img src="lf.png" width="100" height="100" >
+    <b class="textbar1" >Locked</b>
+    <b class="textbar2" >File</b>
+  </div>
+  <div class="video" >
+    video, <b>07 Juli 2020</b>
+    <video preload="meta" width="85%" autoplay="autoplay" controls="" playsinline="">               
+      <source type="video/mp4" src="vid1.mp4">
+    </video>
+  </div>
+  <div class="video" >
+    video, <b>02 Januari 2022</b>
+    <video preload="meta" width="85%" autoplay="autoplay" controls="" playsinline="">               
+      <source type="video/mp4" src="vid2.mp4">
+    </video>
+  </div>
+</body>
+</html>
